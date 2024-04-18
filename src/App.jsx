@@ -1,6 +1,6 @@
 import { useState } from "react";
 import Preloader from "./components/Preloader";
-import Hero from "./components/Hero";
+import HeroSection from "./components/HeroSection";
 import BusinessesSection from "./components/BusinessesSection";
 import FlowSection from "./components/FlowSection";
 import Flow2Section from "./components/Flow2Section";
@@ -13,7 +13,7 @@ function App() {
     <div>
       {isLoading && <Preloader setIsLoading={setIsLoading} />}
 
-      <Hero />
+      <HeroSection />
 
       <div className=" z-20 sticky top-0">
         <BusinessesSection />

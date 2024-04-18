@@ -66,7 +66,7 @@ function FlowSection() {
       </div>
       <div
         ref={colRef}
-        className=" grid grid-cols-[1fr_1fr_1fr_1fr_1fr_1fr_1fr_1fr_1fr_1fr_1fr_1fr_1fr_1fr] gap-[1px] align-bottom absolute bottom-1 left-[20px] right-[20px] overflow-hidden h-[550px] "
+        className=" grid grid-cols-[1fr_1fr_1fr_1fr_1fr_1fr_1fr_1fr_1fr_1fr_1fr_1fr_1fr_1fr] gap-[1px] align-bottom absolute bottom-1 left-[20px] right-[20px] overflow-hidden h-[570px] "
       >
         {[
           { h: "71", n: "27" },
@@ -82,7 +82,7 @@ function FlowSection() {
           { h: "409", n: "67" },
           { h: "497", n: "88" },
           { h: "345", n: "78" },
-          { h: "500", n: "90" },
+          { h: "530", n: "90" },
         ].map((e, i) => (
           <div
             key={i}

@@ -50,7 +50,7 @@ function Preloader({ setIsLoading }) {
     >
       <div className="relative w-full h-full">
         <span
-          className="text-[150px] absolute bottom-0 right-[20px]"
+          className="text-[170px] absolute bottom-0 right-[20px]"
           ref={progressNumberRef}
         >
           {currentNumber}

@@ -20,31 +20,26 @@ function BusinessesSection() {
   });
 
   return (
-    <section className="h-screen bg-primary px-[20px]  sticky">
+    <section className="h-[100vh] bg-primary px-[20px]  sticky">
       <div className="w-full h-[8vh] flex items-center">
-        <img className="h-[80%] mr-[200px]" src="./small-logo.svg" alt="" />
+        <img className="h-[80%] mr-[200px]" src="./small-logo.svg" alt="logo" />
         <nav className="flex justify-between w-full items-center">
           <div>
             <ul className="flex gap-[50px]">
-              <li>
-                <a href="#">Services</a>
-              </li>
-              <li>
-                <a href="#">Case Studies</a>
-              </li>
-              <li>
-                <a href="#">Blog</a>
-              </li>
+              {["Services", "Case Studies", "Blog"].map((e, i) => (
+                <li key={i}>
+                  <a href="#">{e}</a>
+                </li>
+              ))}
             </ul>
           </div>
           <div>
             <ul className="flex gap-[50px]">
-              <li>
-                <a href="#">We&#39;re hiring</a>
-              </li>
-              <li>
-                <a href="#">Contacts</a>
-              </li>
+              {["We're hiring", "Contacts"].map((e, i) => (
+                <li key={i}>
+                  <a href="#">{e}</a>
+                </li>
+              ))}
             </ul>
           </div>
           <a className="bg-black text-primary px-4 py-2" href="">

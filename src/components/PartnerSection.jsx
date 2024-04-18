@@ -144,8 +144,8 @@ function PartnerSection() {
             </p>
             <img
               className="absolute bottom-[20px] left-[20px]"
-              src="./white-circle.svg"
-              alt=""
+              src="./redBox-circle.svg"
+              alt="circle img"
             />
             <a
               className="absolute bottom-[20px] right-[40px] text-white bg-[#101820] py-[10px] px-[20px] "
@@ -188,8 +188,8 @@ function PartnerSection() {
             </p>
             <img
               className="absolute bottom-[20px] left-[20px]"
-              src="./grey-circle.svg"
-              alt=""
+              src="./blackBox-circle.svg"
+              alt="circle img"
             />
             <a
               className="absolute bottom-[20px] right-[40px] !text-[#101820] bg-primary py-[10px] px-[20px] "
