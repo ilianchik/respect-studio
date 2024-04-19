@@ -84,7 +84,7 @@ function Hero() {
   }, []);
 
   return (
-    <section className="sticky top-0">
+    <>
       <div
         className="fixed left-[21px] top-[20px] z-[60]  flex flex-col text-6xl text-primary"
         ref={textRef}
@@ -97,21 +97,23 @@ function Hero() {
           .Studio
         </span>
       </div>
-      <div className="fixed right-[21px] top-[20px] z-0 flex flex-col text-6xl text-primary">
-        <h2 className="text-lg custom-shadow ">
-          Digital Marketing <br /> Agency
-        </h2>
-      </div>
-      <div className="sticky top-0 -z-10">
-        <div
-          ref={bgRef}
-          className="h-[100vh] flex bg-center bg-no-repeat bg-cover"
-          style={{ backgroundImage: `url(${images[currentIndex]})` }}
-        >
-          <div ref={overlayRef} className="w-full h-full"></div>
+      <section className="sticky top-0">
+        <div className="fixed right-[21px] top-[20px] z-0 flex flex-col text-6xl text-primary">
+          <h2 className="text-lg custom-shadow ">
+            Digital Marketing <br /> Agency
+          </h2>
         </div>
-      </div>
-    </section>
+        <div className="sticky top-0 -z-10">
+          <div
+            ref={bgRef}
+            className="h-[100vh] flex bg-center bg-no-repeat bg-cover"
+            style={{ backgroundImage: `url(${images[currentIndex]})` }}
+          >
+            <div ref={overlayRef} className="w-full h-full"></div>
+          </div>
+        </div>
+      </section>
+    </>
   );
 }
 
