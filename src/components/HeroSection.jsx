@@ -84,7 +84,7 @@ function Hero() {
   }, []);
 
   return (
-    <section>
+    <section className="sticky top-0">
       <div
         className="fixed left-[21px] top-[20px] z-[60]  flex flex-col text-6xl text-primary"
         ref={textRef}
