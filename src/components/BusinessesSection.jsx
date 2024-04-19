@@ -20,7 +20,7 @@ function BusinessesSection() {
   });
 
   return (
-    <section className="h-[100vh] bg-primary px-[20px]  ">
+    <section className="h-[100vh] bg-primary px-[20px]  sticky  ">
       <div className="w-full h-[8vh] flex items-center">
         <img className="h-[80%] mr-[200px]" src="./small-logo.svg" alt="logo" />
         <nav className="flex justify-between w-full items-center">
